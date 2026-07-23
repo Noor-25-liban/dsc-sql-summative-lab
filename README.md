@@ -1,81 +1,96 @@
-SQL ANALYSIS PROJECT
-  OVERVIEW
-  This project  practical on SQL and data analysis skills though two business focused case studies.The main objectives were to extract meaningful insights from the dtaa provide with rational databases, answer the business question posed by the entity using SQL and also communicate the findings through data visualizations using either Matplotlib or Seaborn.
-  I completed the projected using SQLITE,Python, Pandas, Matplotlib and seaborn.
+# SQL Analysis Project
 
-  The project Objectives
-  1. Write SQL queries to retrieve business insights
-  2. Apply filtering using WHERE clauses.
-  3. Group data using GROUP BY
-  4. Fiter grouped data using HAVING
-  5. Perform table joins using different SQL JOIN operations
-  6. Use aggregate functions such as COUNT(), MAX() MIN() AVG(), ANDSUM()
-  7. Create subqueries to solve more complex problems.
-  8. vISUALIZE the sql quaries using the required Python libraries.
-    
-    PART 1: THE CUSTOMER SALES DB ANALYSIS
-    In the first section i was given a wholesale products minature database inorer to answer the related world business questions.
-     
-     
-     KEY TASKS I COMPLETED
-    1. Identified California customers with high credit limits for targeted marketing.
-    2. Retrieved international customers for promotional campaigns.
-    3. Calculated average customer credit limits by U.S. state.
-    4. Identified the company's top 10 customers based on total payments.
-    5. Analyzed customer purchasing quantities by product.
-    6. Investigated product line performance.
-    7. Identified employees located in offices suitable for remote work using SQL subqueries.
-           
-           SQL Concepts I applied 
-           1. SELECT
-           2. WHERE
-           3. GROUP BY
-           4. HAVING
-           5. ORDER BY
-           6. JOIN
-           
-          VISUALIZATIONS
-    I used Matplotlib and seaborn to find:
-    1. Average credit limit by sale
-    2. Top 10 customers by Total payments
-    3. Product line Analysis
+## Project Overview
+This project was completed as part of my SQL Summative Lab at Moringa School. The aim of the project was to practice using SQL to answer business questions from different datasets. I also used Python libraries to create visualizations that helped explain the results of my analysis.
 
+The project gave me practical experience working with relational databases and applying SQL concepts to solve real-world business problems.
 
-     PART 2: IMDB MOVIE DATABASE
- In this section i explored the imdb movie database containing films released between theyears 2010 and 2019.   
+## Project Objectives
+During this project, I practiced how to:
+- Write SQL queries to answer business questions.
+- Filter data using WHERE.
+- Group records using GROUP BY.
+- Filter grouped results using HAVING.
+- Join tables using different SQL JOIN statements.
+- Use aggregate functions such as COUNT(), SUM(), AVG(), MIN(), and MAX().
+- Write subqueries to solve more complex problems.
+- Visualize SQL results using Python.
 
+## Part 1: Customer Sales Database Analysis
+For the first part of the project, I worked with a wholesale products database. My task was to use SQL to answer different business questions based on customer, product, and payment information.
 
-   Analysis I performed
-   1. I explored the total number of movies released in the period 2010-2019
-   2. I investigated the missing values 
-   3. Analyzed movie production and tredns over time.
-   4. I created visualizations to support my Exploratory findings.
-   5. I also Examined my genre populated.
+### Tasks I Completed
 
+- Identified California customers with high credit limits.
+- Retrieved international customers for marketing purposes.
+- Calculated the average customer credit limit by state.
+- Identified the top 10 customers based on total payments.
+- Analyzed customer purchasing quantities.
+- Investigated product line performance.
+- Used subqueries to identify employees working in selected offices.
 
-          Business Quiz.
-    This is the business question i explored.
-    Does the popularity of a movie genre relate to its average audience rating?
-              
+### SQL Concepts Used
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- JOIN
+- Aggregate Functions
+- Subqueries
 
-              Key skilss I did Used in
+### Visualizations
+I created several visualizations using Matplotlib and Seaborn, including:
+- Average credit limit by state.
+- Top 10 customers by total payments.
+- Product line analysis.
 
-      1. SQL query writing      
-      2. Relational Database Analysis
-      3. Data Visualizations
-      4. Reporting Business Insights
-      5. Data Exploration.
+## Part 2: IMDb Movie Database Analysis
+For the second part of the project, I explored the IMDb movie database containing movies released between 2010 and 2019.
 
+### Analysis Performed
 
-Visualization Samples 
-in the project i used several charts that i created using Matplotlib and seaborn to communicate business insights.
-  Example of charts:
-  1. Bar charts
-  2. Scatter Plots
+The analysis included:
+- Exploring the total number of movies released between 2010 and 2019.
+- Investigating missing values.
+- Analyzing movie production trends over time.
+- Examining the popularity of different movie genres.
+- Creating visualizations to support the analysis.
 
-   Learning Outcomes.
- Through out this project i established a strong understand in SQL by:
- 1. writting Sql Queries
- 2. Joining tables
- 3. Aggregating and summarizing business data
- 4. Translating business rquirements into SQL solutions and eventually visualizing them for easy understanding to the non technical teams related.  
+### Business Question
+Does the popularity of a movie genre relate to its average audience rating?
+## Technologies Used
+- SQL
+- SQLite
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## Skills I Practiced
+This project helped me improve my skills in:
+
+- Writing SQL queries.
+- Joining multiple tables.
+- Using aggregate functions.
+- Analyzing relational databases.
+- Creating data visualizations.
+- Presenting business insights.
+
+## Sample Visualizations
+Some of the visualizations I created include:
+- Bar charts
+- Scatter plots
+- Product line analysis charts
+- Customer payment analysis charts
+
+## What I Learned
+Working on this project helped me improve my understanding of SQL and data analysis. I became more confident in:
+- Writing SQL queries.
+- Working with relational databases.
+- Solving business problems using SQL.
+- Summarizing data using SQL functions.
+- Presenting results using charts created in Python.
+
+Overall, this project gave me practical experience in using SQL to explore data and answer business questions.
